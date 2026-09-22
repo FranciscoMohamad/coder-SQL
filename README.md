@@ -7,6 +7,8 @@ Proyecto de base de datos retail realizado en PostgreSQL.
 - `retail_project.sql`: creación de la base, tablas, restricciones, datos iniciales y operaciones de mantenimiento.
 - `pre-entrega-modulo4.sql`: consultas de rentabilidad por categoría, clientes sin compras y producto más comprado por cliente.
 - `preentrega_analisis_avanzado.sql`: reporte mensual por categoría con ranking, ventas acumuladas y comparación contra el promedio histórico.
+- `actividad_indices_postgresql.pdf`: resolución de la actividad sobre índices B-Tree, Hash y GIN.
+- `actividad_indices_postgresql.html`: fuente editable utilizada para generar el PDF.
 
 ## Cómo ejecutar
 
@@ -22,6 +24,8 @@ El esquema relaciona `clientes`, `categorias`, `productos` y `ventas` mediante c
 
 ```text
 coder-SQL/
+├── actividad_indices_postgresql.html
+├── actividad_indices_postgresql.pdf
 ├── retail_project.sql
 ├── pre-entrega-modulo4.sql
 ├── preentrega_analisis_avanzado.sql
